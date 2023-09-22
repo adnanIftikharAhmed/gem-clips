@@ -9,7 +9,7 @@
         <p *ngIf="control.errors?.['email']" class="text-red-400">You must enter a valid email</p>
         <p *ngIf="control.errors?.['max']" class="text-red-400">You must enter a valid Age</p>
         <p *ngIf="control.errors?.['min']" class="text-red-400">You must enter a valid Age</p>
-        <!-- <p *ngIf="control.errors?.['pattern']" class="text-red-400">Password must contain at least 8 characters</p> -->
+        <p *ngIf="control.errors?.['pattern']" class="text-red-400">Password must contain at least 8 characters</p>
         <!-- <p *ngIf="control.errors?.['pattern']" class="text-red-400">You must enter the same password</p> -->
         <p *ngIf="control.errors?.['phoneNumber']" class="text-red-400">Enter 13 digit phone number</p>
     </ng-container>
